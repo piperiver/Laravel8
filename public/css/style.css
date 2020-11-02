@@ -1,0 +1,43 @@
+.card-header{
+    position: relative;
+}
+.card-header .create{
+    position: absolute;
+    right: 21px;
+    top: 21px;
+}
+.logo-upload{
+    padding: 20px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #029eb1;
+    cursor: pointer;
+}
+.form-group{
+    padding-bottom: 20px !important;
+}
+#logo-view{
+    width: 100%;
+    max-width: 200px;
+}
+img.logo-list {
+    width: 100%;
+    max-width: 100px;
+}
+.pagination{
+    align-items: center;
+    justify-content: center;
+}
+.page-item.active .page-link{
+    background-color: #82339a !important;
+    border-color: #82339a !important;
+}
+.page-link{
+    font-weight: bold !important;
+}
+.page-link:hover{
+    color: #82339a !important;
+}
+option{
+    color: black;
+}
